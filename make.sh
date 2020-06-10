@@ -1,9 +1,9 @@
 #!/bin/bash
-rm -f acptemplates.tar
-7z a -ttar -mx=9 acptemplates.tar ./acptemplates/*
 rm -f files.tar
 7z a -ttar -mx=9 files.tar ./files/*
-rm -f templates.tar
-7z a -ttar -mx=9 templates.tar ./templates/*
-rm -f dev.hanashi.wsc.template1.tar
-7z a -ttar -mx=9 dev.hanashi.wsc.template1.tar ./* -x!acptemplates -x!files -x!templates -x!dev.hanashi.wsc.template1.tar -x!.git -x!.gitignore -x!make.bat -x!make.sh
+rm -f dev.hanashi.wsc.twemoji-smileys.tar
+rm -f dev.hanashi.wsc.twemoji-smileys.tar.gz
+7z a -ttar -mx=9 dev.hanashi.wsc.twemoji-smileys.tar ./* -x!acptemplates -x!files -x!templates -x!dev.hanashi.wsc.twemoji-smileys.tar -x!.git -x!.gitignore -x!make.bat -x!make.sh
+7z a dev.hanashi.wsc.twemoji-smileys.tar.gz dev.hanashi.wsc.twemoji-smileys.tar
+rm -f files.tar
+rm -f dev.hanashi.wsc.twemoji-smileys.tar
