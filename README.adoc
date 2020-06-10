@@ -1,0 +1,8 @@
+= Twemoji Smileys
+
+This package adds the open source emojis of Twemoji to your WSC installation.
+
+The official Twemoji repository can be found here: https://github.com/twitter/twemoji
+
+Image copyright:
+Copyright (c) 2018 Twitter, Inc and other contributors
