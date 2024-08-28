@@ -6,8 +6,8 @@
 		<packagename language="de">Twemoji-Smileys</packagename>
 		<packagedescription>Twemoji smiley package for WSC.</packagedescription>
 		<packagedescription language="de">Twemoji Smiley-Paket fürs WSC.</packagedescription>
-		<version>1.1.0</version>
-		<date>2023-10-19</date>
+		<version>1.1.1</version>
+		<date>2024-08-28</date>
 	</packageinformation>
 	<authorinformation>
 		<author>Hanashi Development</author>
@@ -24,7 +24,7 @@
 		<instruction type="smiley"/>
 		<instruction type="script">acp/install_dev.hanashi.wsc.twemoji-smileys.php</instruction>
 	</instructions>
-	<instructions type="update" fromversion="1.0.*">
+	<instructions type="update" fromversion="1.1.0">
 		<void/>
 	</instructions>
 </package>
