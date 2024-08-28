@@ -3333,10 +3333,11 @@ foreach ($categoryData as $group => $emojis) {
     $list = new SmileyList();
     $list->getConditionBuilder()->add('smileyCode IN (?)', [$emojis]);
     $list->getConditionBuilder()->add('packageID = ?', [$this->installation->getPackageID()]);
+    $list->getConditionBuilder()->add('categoryID IS NULL');
     $list->readObjects();
     $smileys = $list->getObjects();
 
-    if (!\count($smileys)) {
+    if ($smileys !== []) {
         continue;
     }
 
