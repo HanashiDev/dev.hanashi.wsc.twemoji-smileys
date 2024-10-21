@@ -3337,7 +3337,7 @@ foreach ($categoryData as $group => $emojis) {
     $list->readObjects();
     $smileys = $list->getObjects();
 
-    if ($smileys !== []) {
+    if ($smileys === []) {
         continue;
     }
 
